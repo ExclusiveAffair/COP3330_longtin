@@ -184,9 +184,6 @@ public class ContactApp {
         System.out.print("Enter the filename to load: ");
         return validateFileName();
     }
-    public static void main(String[] args) {
-        runApp();
-    }
 }
 
 class InvalidContactListMenuQueryException extends IllegalArgumentException {}
